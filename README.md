@@ -1,0 +1,1 @@
+To use, run "npm install" and then "npm run dev" in the root directory
