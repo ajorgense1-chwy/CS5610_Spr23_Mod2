@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Dice from './Dice';
-import ToDoApps from './ToDoApp';
-import {ToDoProvider} from './ToDoContext';
+import { CityContext } from './CityContext';
+import CitySelectoryApp from './CitySelectorApp';
+// import Dice from './Dice';
+// import ToDoApps from './ToDoApp';
+// import {ToDoProvider} from './ToDoContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <ToDoProvider>
-      <React.StrictMode>
-      <ToDoApps />
+    <React.StrictMode>
+      <CityContext />
     </React.StrictMode>
-  </ToDoProvider>,
 )
 
 // main
